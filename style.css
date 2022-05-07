@@ -1,0 +1,48 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #f3f5fc;
+}
+
+.main-container {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto {
+    margin-top: 90px;
+    margin-right: 90px;
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("img/messagem.png");
+    background-repeat: no-repeat;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.label-info {
+    font-size: 12px;
+}
+
+.encrip {
+    background-color: darkblue;
+    color: white;
+}
+
+.desencrip {
+    margin-left: 15px;
+}
