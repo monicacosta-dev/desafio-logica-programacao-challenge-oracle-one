@@ -9,6 +9,14 @@ body {
     background-color: #f3f5fc;
 }
 
+header {
+    height: 48px;
+    width: 31.085588455200195px;
+    left: 44px;
+    top: 0px;
+    border-radius: 0px;
+}
+
 .main-container {
     display: flex;
     margin-left: 80px;
@@ -35,14 +43,20 @@ body {
 }
 
 .label-info {
-    font-size: 12px;
+    font-size: 15px;
+    margin-left: 3px;
+    color: darkblue;
 }
 
 .encrip {
     background-color: darkblue;
     color: white;
+    border-radius: 40px;
 }
 
 .desencrip {
+    background-color: #D8DFE8;
+    color: darkblue;
+    border-radius: 40px;
     margin-left: 15px;
 }
