@@ -12,35 +12,44 @@
 
 <header>
     <div>
-
-        <img src="img/logoalura.png" alt="Logo da Aura"></a>
+        <img class="logo" src="img/logoalura.png" alt="Logo da Aura"></a>
     </div>
-    <label id="logo"> Desafio ONE-ALURA</label>
+    <!--<label id="logo">Desafio ONE-ALURA</label> -->
     </headerclass>
 
     <body>
         <main class="main-container">
             <section>
-                <textarea class="input-texto" name="" id="" cols="40" rows="6" placeholder="digite  seu texto"></textarea>
+                <textarea class="input-texto" cols="40" rows="6" placeholder="digite  seu texto"></textarea>
                 <div>
                     <img src="img/alerta1.png"><label class="label-info">Permitido apenas letras maiusculas e minusculas</label>
                 </div>
                 <div class="botoes">
-                    <button class="encrip">
-                    Criptografar
-                </button>
-                    <button class="desencrip">
-                    Descriptografar
-                </button>
+                    <button class="encriptar" onclick="btnEncriptar()">
+                        Criptografar
+                    </button>
+                    <button class="desencrip">Descriptografar</button>
                 </div>
-
             </section>
-
             <section>
-                <textarea name="" id="" cols="18" rows="8"></textarea>
+                <textarea class="mensagem" id="" cols="18" rows="8"></textarea>
             </section>
         </main>
+        <footer class="rodape">
+            <p id="texto">Desnvolvido por Mônica Costa - copyright © 2022</p>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/monica-costa-5572a929/" target="_blank">
+                    <img src="img/linkedin.png">
+                </a>
 
+                <a href="https://github.com/monicacosta-dev" target="_blank">
+                    <img src="img/github.png">
+                </a>
+                <a href="https://www.instagram.com/monicacostamadebrasil/" target="_blank">
+                    <img src="img/instagram.png">
+                </a>
+            </div>
+        </footer>
         <script src="script.js"></script>
     </body>
 

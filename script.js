@@ -2,7 +2,7 @@ const inputTexto = document.querySelector(".input-texto");
 const mensagem = document.querySelector(".mensagem");
 
 function btnEncriptar() { //nao esquecer do evento onclick
-    const textoEncriptado = encrip(".inputTexto.value")
+    const textoEncriptado = encriptar(inputTexto.value)
     mensagem.value = textoEncriptado
     mensagem.style.backgroundImge = "none"
 
@@ -22,6 +22,7 @@ function encriptar(stringEncriptada) {
             stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[i][0]), (matrizCodigo[i][1])
         }
     }
-    return stringEncriptada
+
+    return stringEncriptada;
 
 }
