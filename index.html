@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador de texto</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,23 +20,27 @@
     <body>
         <main class="main-container">
             <section>
-                <textarea class="input-texto" cols="40" rows="6" placeholder="digite  seu texto"></textarea>
+                <textarea class="input-texto" cols="40" rows="9 " placeholder="digite  seu texto"></textarea>
                 <div>
-                    <img src="img/alerta1.png"><label class="label-info">Permitido apenas letras maiusculas e minusculas</label>
+                    <img src="img/alerta.png"><label class="label-info">Permitido apenas letras maiusculas e minusculas</label>
                 </div>
                 <div class="botoes">
                     <button class="encriptar" onclick="btnEncriptar()">
                         Criptografar
                     </button>
-                    <button class="desencrip">Descriptografar</button>
+                    <button class="descriptar" onclick="btnDescriptar()">
+                        Descriptografar
+                    </button>
                 </div>
             </section>
             <section>
-                <textarea class="mensagem" id="" cols="18" rows="8"></textarea>
+                <textarea class="mensagem" id="textearea" cols="18" rows="12"></textarea>
+                <button id="copiar">Copiar</button>
+                <button id="limpar">Limpar</button>
             </section>
         </main>
         <footer class="rodape">
-            <p id="texto">Desnvolvido por Mônica Costa - copyright © 2022</p>
+            <p>Desnvolvido por Mônica Costa com Challenge-Oracle Next Education - Alura - © 2022</p>
             <div class="links">
                 <a href="https://www.linkedin.com/in/monica-costa-5572a929/" target="_blank">
                     <img src="img/linkedin.png">

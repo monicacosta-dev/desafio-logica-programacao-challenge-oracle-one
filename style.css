@@ -27,15 +27,18 @@
         margin-top: 90px;
         margin-right: 90px;
         border: none;
+        resize: none;
+        /* tamanho de textarea fixa*/
     }
     
     .mensagem {
         border: none;
         position: relative;
         margin-top: 20px;
-        margin-left: 90px;
+        margin-left: 50px;
         background-image: url("img/messagem.png");
         background-repeat: no-repeat;
+        resize: none;
     }
     
     .logo {
@@ -62,35 +65,56 @@
     .encriptar {
         background-color: darkblue;
         color: white;
-        border-radius: 40px;
         width: 228px;
-        font-size: 20px;
+        font-size: 18px;
+        border-bottom-left-radius: 30px;
     }
     
-    .desencrip {
+    .descriptar {
         background-color: #D8DFE8;
         color: darkblue;
-        border-radius: 40px;
+        border-radius: 25px;
         margin-left: 15px;
-        width: 228px;
-        font-size: 12px;
+        width: 222px;
+        font-size: 19px;
+    }
+    
+    #copiar {
+        background-color: darkblue;
+        color: white;
+        border-radius: 30px;
+        width: 100px;
+        font-size: 18px;
+        margin-left: 90px;
+    }
+    
+    #limpar {
+        background-color: #D8DFE8;
+        color: darkblue;
+        border-bottom-right-radius: 20px;
+        width: 100px;
+        font-size: 18px;
+        margin-left: 20px;
     }
     
     .rodape {
-        margin-bottom: 10px;
         position: absolute;
         background-color: #c0dcdf;
         color: darkblue;
         height: 50px;
         width: 100%;
-        text-align: center;
-        line-height: 50px;
+        text-align: right;
     }
     
-    #texto {
+    p {
         font-size: 17px;
+        float: left;
     }
     
     .links {
+        margin-top: 15px;
+    }
+    
+    .links a {
         text-decoration: none;
     }
