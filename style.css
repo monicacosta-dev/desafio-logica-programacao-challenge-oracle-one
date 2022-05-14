@@ -68,6 +68,7 @@
         width: 228px;
         font-size: 18px;
         border-bottom-left-radius: 30px;
+        cursor: pointer;
     }
     
     .descriptar {
@@ -77,6 +78,7 @@
         margin-left: 15px;
         width: 222px;
         font-size: 19px;
+        cursor: pointer;
     }
     
     #copiar {
@@ -86,6 +88,7 @@
         width: 100px;
         font-size: 18px;
         margin-left: 90px;
+        cursor: pointer;
     }
     
     #limpar {
@@ -95,6 +98,7 @@
         width: 100px;
         font-size: 18px;
         margin-left: 20px;
+        cursor: pointer;
     }
     
     .rodape {
@@ -107,14 +111,11 @@
     }
     
     p {
-        font-size: 17px;
+        font-size: 18px;
         float: left;
-    }
-    
-    .links {
-        margin-top: 15px;
     }
     
     .links a {
         text-decoration: none;
+        cursor: pointer;
     }
