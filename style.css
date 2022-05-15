@@ -28,17 +28,31 @@
         margin-right: 90px;
         border: none;
         resize: none;
+        background-color: aliceblue;
         /* tamanho de textarea fixa*/
+    }
+    
+    .input-texto:focus {
+        outline: none;
+    }
+    
+    .input-texto:placeholder-shown {
+        color: black;
     }
     
     .mensagem {
         border: none;
         position: relative;
-        margin-top: 20px;
-        margin-left: 50px;
+        margin-top: 40 px;
+        margin-left: 90px;
         background-image: url("img/messagem.png");
         background-repeat: no-repeat;
         resize: none;
+        background-color: aliceblue;
+    }
+    
+    .mensagem:focus {
+        outline: none;
     }
     
     .logo {
@@ -81,6 +95,22 @@
         cursor: pointer;
     }
     
+    .texto-section p {
+        font-family: 'Roboto' sans-serif;
+        font-size: 15px;
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+    
+    .texto-section h3 {
+        font-family: 'Roboto' 'Courier New';
+        text-align: left;
+        font-size: 25px;
+        color: black;
+        margin-left: 90px;
+        text-align: center;
+    }
+    
     #copiar {
         background-color: darkblue;
         color: white;
@@ -108,6 +138,7 @@
         height: 50px;
         width: 100%;
         text-align: right;
+        justify-content: center;
     }
     
     p {

@@ -12,29 +12,33 @@
 
 <header>
     <div>
+
         <a href="https://www.alura.com.br/" target="_blank"><img class="logo" src="img/logoalura.png" alt="Logo da Aura"></a>
     </div>
-    <!--<label id="logo">Desafio ONE-ALURA</label> -->
+
     </headerclass>
 
     <body>
         <main class="main-container">
             <section>
-                <textarea class="input-texto" cols="40" rows="9 " placeholder="digite  seu texto"></textarea>
-                <div>
-                    <img src="img/alerta.png"><label class="label-info">Permitido apenas letras maiusculas e minusculas</label>
+                <textarea class="input-texto" cols="28" rows="9" placeholder="Digite seu texto"></textarea>
+                <div id="img">
+                    <img src="img/alerta.png"><label class="label-info">permitido apenas letras  minusculas</label>
                 </div>
                 <div class="botoes">
                     <button class="encriptar" onclick="btnEncriptar()">
                         Criptografar
                     </button>
-                    <button class="descriptar" onclick="btnDescriptar()">
+                    <button class="descriptar" onclick="btnDesencriptar()">
                         Descriptografar
                     </button>
+
                 </div>
             </section>
-            <section>
-                <textarea class="mensagem" id="textearea" cols="18" rows="12" placeholder="Nenhuma mensagem encontrada!"></textarea>
+            <section class="texto-section">
+                <textarea class="mensagem" id="textearea" cols="20" rows="9"></textarea>
+                <h3>Nenhuma mensagem </br> encontrada</h3>
+                <!--<p>Digite um texto que você deseja<br> criptografar ou descriptografar.</p> // logo trabalho o texto.-->
                 <button id="copiar" onclick="btncopiar()">Copiar</button>
                 <button id="limpar" onclick="btnLimpar()">Limpar</button>
             </section>
